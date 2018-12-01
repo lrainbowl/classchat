@@ -22,6 +22,26 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".UserActivity"
+            android:label="My Classes">
+            <intent-filter>
+                <action android:name="myUserActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".JoinActivity"
+            android:label="Join My Class">
+            <intent-filter>
+                <action android:name="myJoinActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
