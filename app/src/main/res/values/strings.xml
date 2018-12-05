@@ -12,4 +12,6 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="join_my_class">JOIN MY CLASS</string>
+    <string name="join">JOIN</string>
 </resources>
