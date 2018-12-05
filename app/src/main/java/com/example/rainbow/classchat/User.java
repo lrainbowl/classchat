@@ -1,7 +1,7 @@
 package com.example.rainbow.classchat;
 
 import android.widget.ListView;
-
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.List;
 //import java.util.Map;
@@ -11,8 +11,6 @@ public class User {
     private String username;
     private String password;
     public static List<String> myClasses = new ArrayList<String>();
-
-
 
 
     //public Map<String, Class> myClasses;

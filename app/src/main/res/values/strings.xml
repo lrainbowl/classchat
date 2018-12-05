@@ -14,4 +14,5 @@
     </string>
     <string name="join_my_class">JOIN MY CLASS</string>
     <string name="join">JOIN</string>
+    <string name="className">Class Name</string>
 </resources>

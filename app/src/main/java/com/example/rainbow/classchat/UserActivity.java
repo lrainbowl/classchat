@@ -7,8 +7,6 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class UserActivity extends AppCompatActivity {
 
@@ -19,7 +17,7 @@ public class UserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user);
 
         listView = (ListView) findViewById(R.id.window_List);
-        ArrayAdapter arrayAdapter = new ArrayAdapter(this, android.R.layout.activity_list_item, User.myClasses.toArray());
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, User.myClasses);
         listView.setAdapter(arrayAdapter);
 
 
