@@ -17,13 +17,13 @@ public class UserActivity extends AppCompatActivity {
         setContentView(R.layout.activity_user);
 
         listView = (ListView) findViewById(R.id.window_List);
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, User.myClasses);
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, User.myEvents);
         listView.setAdapter(arrayAdapter);
 
 
     }
 
-    public void joinClass(View view){
+    public void addEvent(View view){
         startActivity(new Intent(UserActivity.this, JoinActivity.class));
     }
 

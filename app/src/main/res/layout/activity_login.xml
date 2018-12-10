@@ -73,7 +73,7 @@
                 android:clickable="true"
                 android:focusable="true"
                 android:onClick="switchToUser"
-                android:text="@string/action_sign_in"
+                android:text="@string/action_sign_in_short"
                 android:textStyle="bold" />
 
         </LinearLayout>
